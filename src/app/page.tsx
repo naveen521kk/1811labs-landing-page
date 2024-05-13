@@ -350,7 +350,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center gap-[1.75rem] min-h-screen w-full text-[#111827]">
       <Nav />
-      <main className="w-full h-full">
+      <main className="w-full h-full mb-[5rem]">
         <HeroSection />
         <div className="space-y-[8.81rem] mx-[6.5rem]">
           <FeaturesSection />
