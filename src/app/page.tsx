@@ -10,7 +10,7 @@ const beVietnamPro = Be_Vietnam_Pro({
   weight: "500",
 });
 
-export function PrimaryButton({ children }: { children: React.ReactNode }) {
+function PrimaryButton({ children }: { children: React.ReactNode }) {
   return (
     <button
       className={cn(
@@ -27,7 +27,7 @@ export function PrimaryButton({ children }: { children: React.ReactNode }) {
   );
 }
 
-export function Nav() {
+function Nav() {
   return (
     <>
       <div className="min-h-12 flex justify-between py-5 px-[6.5rem] w-full">
@@ -78,7 +78,7 @@ export function Nav() {
   );
 }
 
-export function HeroSection() {
+function HeroSection() {
   return (
     <>
       <div className="min-h-[30rem] w-full relative overflow-clip">
@@ -119,7 +119,7 @@ export function HeroSection() {
   );
 }
 
-export function FeaturesSection() {
+function FeaturesSection() {
   return (
     <section className="space-y-[8rem]">
       <div className="w-full flex flex-col justify-center items-center ">
@@ -204,7 +204,7 @@ export function FeaturesSection() {
   );
 }
 
-export function CardsSection() {
+function CardsSection() {
   return (
     <div className="space-y-[5rem]">
       <div className="flex items-center justify-center">
@@ -328,7 +328,7 @@ export function CardsSection() {
   );
 }
 
-export function PricingSection() {
+function PricingSection() {
   return (
     <>
       <section id="pricing">
